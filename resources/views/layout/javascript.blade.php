@@ -1,13 +1,6 @@
 <!-- Vendor js -->
 <script src="{{ asset('assets') }}/js/vendor.min.js"></script>
 
-<!-- plugin js -->
-<script src="{{ asset('assets') }}/libs/moment/min/moment.min.js"></script>
-<script src="{{ asset('assets') }}/libs/fullcalendar/main.min.js"></script>
-
-<!-- Calendar init -->
-<script src="{{ asset('assets') }}/js/pages/calendar.init.js"></script>
-
 <!-- third party js -->
 <script src="{{ asset('assets') }}/libs/datatables.net/js/jquery.dataTables.min.js"></script>
 <script src="{{ asset('assets') }}/libs/datatables.net-bs5/js/dataTables.bootstrap5.min.js"></script>
@@ -26,6 +19,21 @@
 
 <!-- Datatables init -->
 <script src="{{ asset('assets') }}/js/pages/datatables.init.js"></script>
+
+<!-- plugin js -->
+<script src="{{ asset('assets') }}/libs/moment/min/moment.min.js"></script>
+<script src="{{ asset('assets') }}/libs/fullcalendar/main.min.js"></script>
+<script src="{{ asset('assets') }}/libs/jquery-sparkline/jquery.sparkline.min.js"></script>
+<script src="{{ asset('assets') }}/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="{{ asset('assets') }}/libs/admin-resources/jquery.vectormap/maps/jquery-jvectormap-world-mill-en.js"></script>
+
+<!-- Calendar init -->
+<script src="{{ asset('assets') }}/js/pages/calendar.init.js"></script>
+
+@if(Request::segment(1) == 'dashboard'):
+<!-- Dashboard 2 init -->
+<script src="{{ asset('assets') }}/js/pages/dashboard-2.init.js"></script>
+@endif
 
 <!-- App js -->
 <script src="{{ asset('assets') }}/js/app.min.js"></script>
