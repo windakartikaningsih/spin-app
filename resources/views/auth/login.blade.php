@@ -46,7 +46,7 @@
                                 </a>
                             </div>
                         </div>
-
+                        <?= $alert ?>
                         <!-- title-->
                         <h4 class="mt-0">Sign In</h4>
                         <p class="text-muted mb-4">Enter your email address and password to access account.</p>

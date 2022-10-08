@@ -24,8 +24,8 @@
         <div class="card">
             <div class="card-body">
                 <h4 class="header-title mb-4">List Kategori</h4>
-                <button type="button" class="btn btn-outline-primary waves-effect waves-light mb-4" data-bs-toggle="modal" data-bs-target="#FormAddKategori">Add Kategori
-                    <i class="mdi mdi-file-plus-outline"></i>
+                <button type="button" class="btn btn-outline-primary waves-effect waves-light mb-4" data-bs-toggle="modal" data-bs-target="#FormAddKategori">
+                    <i class="mdi mdi-file-plus-outline"></i>&nbsp;&nbsp;Add Kategori
                 </button>
 
                 <table id="key-datatable" class="table dt-responsive nowrap w-100">

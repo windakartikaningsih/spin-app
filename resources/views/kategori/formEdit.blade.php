@@ -5,14 +5,14 @@
                 <h4 class="modal-title">Modal Content is Responsive</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form action="{{ route('prosesUpdateKategori') }}" method="POST">
+            <form action="{{ route('prosesEditKategori') }}" method="POST">
                 <div class="modal-body p-4">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="mb-3">
                                 <label for="field-3" class="form-label">Kategori</label>
                                 <input type="text" class="form-control" id="field-3" placeholder="Kategori" name="kategori">
-                                <input type="text" class="form-control" id="field-3" placeholder="Kategori" name="id" value="{{  }}" hidden>
+                                <input type="text" class="form-control" id="field-3" placeholder="Kategori" name="id" hidden>
                             </div>
                         </div>
                     </div>

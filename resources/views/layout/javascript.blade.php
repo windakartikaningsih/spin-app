@@ -1,6 +1,15 @@
 <!-- Vendor js -->
 <script src="{{ asset('assets') }}/js/vendor.min.js"></script>
 
+<script src="{{ asset('assets') }}/libs/selectize/js/standalone/selectize.min.js"></script>
+<script src="{{ asset('assets') }}/libs/mohithg-switchery/switchery.min.js"></script>
+<script src="{{ asset('assets') }}/libs/multiselect/js/jquery.multi-select.js"></script>
+<script src="{{ asset('assets') }}/libs/select2/js/select2.min.js"></script>
+<script src="{{ asset('assets') }}/libs/jquery-mockjax/jquery.mockjax.min.js"></script>
+<script src="{{ asset('assets') }}/libs/devbridge-autocomplete/jquery.autocomplete.min.js"></script>
+<script src="{{ asset('assets') }}/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>
+<script src="{{ asset('assets') }}/libs/bootstrap-maxlength/bootstrap-maxlength.min.js"></script>
+
 <!-- third party js -->
 <script src="{{ asset('assets') }}/libs/datatables.net/js/jquery.dataTables.min.js"></script>
 <script src="{{ asset('assets') }}/libs/datatables.net-bs5/js/dataTables.bootstrap5.min.js"></script>
@@ -34,6 +43,7 @@
 <!-- Dashboard 2 init -->
 <script src="{{ asset('assets') }}/js/pages/dashboard-2.init.js"></script>
 @endif
+<script src="{{ asset('assets') }}/js/pages/form-advanced.init.js"></script>
 
 <!-- App js -->
 <script src="{{ asset('assets') }}/js/app.min.js"></script>

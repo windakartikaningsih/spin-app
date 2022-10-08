@@ -26,39 +26,18 @@
                 </li>
 
                 <li>
-                    <a href="apps-chat.html">
+                    <a href="{{ route('getListKatalog') }}">
                         <i data-feather="message-square"></i>
-                        <span> Chat </span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="apps-social-feed.html">
-                        <i data-feather="rss"></i>
-                        <span> Social Feed </span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="apps-companies.html">
-                        <i data-feather="activity"></i>
-                        <span> Companies </span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="apps-file-manager.html">
-                        <i data-feather="folder-plus"></i>
-                        <span> File Manager </span>
+                        <span> Katalog </span>
                     </a>
                 </li>
 
                 <li class="menu-title mt-2">Custom</li>
 
                 <li>
-                    <a href="widgets.html">
+                    <a href="#">
                         <i data-feather="gift"></i>
-                        <span> Widgets </span>
+                        <span> Users </span>
                     </a>
                 </li>
             </ul>

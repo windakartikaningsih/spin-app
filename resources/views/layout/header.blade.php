@@ -10,6 +10,12 @@
 <!-- Plugin css -->
 <link href="{{ asset('assets') }}/libs/fullcalendar/main.min.css" rel="stylesheet" type="text/css" />
 
+<link href="{{ asset('assets') }}/libs/mohithg-switchery/switchery.min.css" rel="stylesheet" type="text/css" />
+<link href="{{ asset('assets') }}/libs/multiselect/css/multi-select.css" rel="stylesheet" type="text/css" />
+<link href="{{ asset('assets') }}/libs/select2/css/select2.min.css" rel="stylesheet" type="text/css" />
+<link href="{{ asset('assets') }}/libs/selectize/css/selectize.bootstrap3.css" rel="stylesheet" type="text/css" />
+<link href="{{ asset('assets') }}/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css" rel="stylesheet" type="text/css" />
+
 <!-- third party css -->
 <link href="{{ asset('assets') }}/libs/datatables.net-bs5/css/dataTables.bootstrap5.min.css" rel="stylesheet" type="text/css" />
 <link href="{{ asset('assets') }}/libs/datatables.net-responsive-bs5/css/responsive.bootstrap5.min.css" rel="stylesheet" type="text/css" />

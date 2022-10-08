@@ -66,7 +66,7 @@ class KategoriController extends Controller
         return redirect()->back()->with('alertSuccess', 'Data Berhasil Ditambahkan');
     }
 
-    public function prosesUpdateKategori(Request $request)
+    public function prosesEditKategori(Request $request)
     {
         $data = array(
             'kategori' => $request->kategori,
